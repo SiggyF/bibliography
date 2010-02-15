@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{transparent}
+\usepackage{fullpage}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, 
+  linkcolor=BlueViolet, citecolor=BlueViolet, filecolor=BlueViolet, pagecolor=BlueViolet, urlcolor=blue,
+  pdfauthor={Fedor Baart},
+  pdftitle={Operational forecasts of morphological effects of storms},
+  pdfsubject={Morphology},
+  pdfkeywords={Coast, Morphology, Operational},
+  pdfproducer={Latex},
+  pdfcreator={pdflatex}} 
+
+\usepackage{svn}
+\SVN $Id: bibliography.tex 689 2009-07-23 12:46:54Z damsma $%
+\SVN $Date: 2009-07-23 14:46:54 +0200 (Thu, 23 Jul 2009) $%
+\SVN $Author: damsma $%
+\SVN $Revision: 689 $%
+\SVN $HeadURL: https://repos.deltares.nl/repos/phd/library/bibliography/bibliography.tex $%
+
+\usepackage{natbib}                                  % Citation (Natbib - apalike style)
+
+%\usepackage[ps2pdf,bookmarks,urlcolor=blue,citecolor=blue,linkcolor=blue,pagecolor=blue,colorlinks,hyperfigures,breaklinks=false]{hyperref}%blue link
+%\usepackage[urlcolor=blue,colorlinks]{hyperref}
+
+\usepackage[oldstyle]{kpfonts} % ,oldstyle
+\begin{document}
+
+
+
+\nocite{*} % cite everything
+
+\bibliographystyle{apalike} % set style
+\bibliography{R,bibliography} % relative reference to bibliography file
+
+\end{document}
